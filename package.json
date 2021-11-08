@@ -2,8 +2,8 @@
   "name": "usingsass",
   "version": "0.1.0",
   "engines": {
-    "node": "6.11.1"
-  },
+    "node": "v14.17.5"
+},
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
