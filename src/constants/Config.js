@@ -1,1 +1,1 @@
-export const API_URL ='https://nomos-reactredux.herokuapp.com/api';
+export const API_URL ='https://nomos-reactredux.herokuapp.com';
