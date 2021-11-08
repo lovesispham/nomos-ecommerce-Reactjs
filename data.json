@@ -1,0 +1,104 @@
+{
+    "products" : [
+        {
+            "title" : "LJ 2 side chair grey",
+            "price": 84,
+            "category":"Decoration",
+            "img01":"assets/img/product/1/19.jpg",
+            "img02":"assets/img/product/1/20.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"lj-2-side-chair-grey",
+            "availableSizes": ["X", "L", "XL", "XXL"]
+        },
+        {
+            "title" : "Collect Lighting",
+            "price": 210,
+            "category":"Furniture",
+            "img01":"assets/img/product/2/26.jpg",
+            "img02":"assets/img/product/2/27.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"collect-lighting",
+            "availableSizes":["X", "M", "L"]
+        },
+        {
+            "title" : "Face Cleansing Cream",
+            "price": 120,
+            "category":"Furniture",
+            "img01":"assets/img/product/3/31-1.jpg",
+            "img02":"assets/img/product/3/32.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"face-cleansing-cream",
+            "availableSizes":["X", "M", "L"]
+        },
+        {
+            "title" : "B&O Play A2 In Grey",
+            "price": 120,
+            "category":"Lighter",
+            "img01":"assets/img/product/4/7.jpg",
+            "img02":"assets/img/product/4/8.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"b&o-play-a2-in-grey",
+            "availableSizes":["XL"]
+        },
+        {
+            "title" : "Mirror",
+            "price": 120,
+            "category":"Decoration",
+            "img01":"assets/img/product/5/4-1.jpg",
+            "img02":"assets/img/product/5/4-11.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"mirror",
+            "availableSizes":["X", "L", "XL"]
+        },
+        {
+            "title" : "Watch Desk",
+            "price": 120,
+            "category":"Decoration",
+            "img01":"assets/img/product/6/14.jpg",
+            "img02":"assets/img/product/6/15.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"watch-desk",
+            "availableSizes": ["XL", "XXL"]
+        },
+        {
+            "title" : "Decor In House",
+            "price": 120,
+            "category":"Decoration",
+            "img01":"assets/img/product/7/48.jpg",
+            "img02":"assets/img/product/7/49.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"decor-in-house",
+            "availableSizes": ["XL", "XXL"]
+        },
+        {
+            "title" : "Chair Beige",
+            "price": 210,
+            "category":"Furniture",
+            "img01":"assets/img/product/8/58.jpg",
+            "img02":"assets/img/product/8/59.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"chair-beige",
+            "availableSizes": ["XL", "XXL"]
+        },
+        {
+            "title" : "Chair Grey",
+            "price": 210,
+            "category":"Furniture",
+            "img01":"assets/img/product/9/1.jpg",
+            "img02":"assets/img/product/9/2.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"chair-grey",
+            "availableSizes": ["XL", "XXL"]
+        },
+        {
+            "title" : "Chair blue",
+            "price": 210,
+            "category":"Furniture",
+            "img01":"assets/img/product/10/12.jpg",
+            "img02":"assets/img/product/10/13.jpg",
+            "colors":["white","red","yellow"],
+            "slug":"chair-blue",
+            "availableSizes": ["XL", "XXL"]
+        }
+    ]
+}
