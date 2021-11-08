@@ -1,0 +1,58 @@
+// tabs
+.tab-panel {
+    display: none;
+
+    &.current {
+        display: block;
+    }
+
+    
+}
+
+
+
+// Form control
+.form-control {
+    width: 100%;
+    border:0;
+    
+    background: #eee;
+    padding: 0 20px;
+    border-radius:5px;
+    height: 40px;
+    @include placeholder(#999,13px);
+    @include placeholder_fw(400);
+    font-size: 13px;
+    
+    @media(min-width:$screen-sm){
+        height: 50px;
+        @include placeholder(#999,18px);
+        font-size: 18px;
+        border-radius: 10px;
+    }
+}
+
+.form-input {
+    position: relative;
+
+}
+// button
+.btn{
+    border-radius: 8px;
+    color: $white;
+    padding: 0 10px;
+    display: inline-block; 
+    font-size: 12px;
+
+    font-weight: bold;
+    &.bg-org{
+        background: linear-gradient(97.29deg, #F3B05D 1.16%, #F38A5D 81.65%);
+    }
+    &.bg-blue{
+        background: linear-gradient(289.53deg, #3E61B8 7.11%, #65A2EA 100%);
+    }
+    &:hover, &:focus{
+        color: $white;
+    }
+}
+

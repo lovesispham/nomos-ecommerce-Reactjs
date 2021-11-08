@@ -1,0 +1,1 @@
+export const API_URL ='https://nomos-json-server.herokuapp.com';

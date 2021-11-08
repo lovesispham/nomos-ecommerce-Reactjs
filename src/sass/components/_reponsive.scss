@@ -1,0 +1,20 @@
+
+
+
+    
+ @media(max-width:1024px){
+ 	.row{
+		    margin-left: -10px;
+    margin-right: -10px;
+	}
+	.container{
+		padding: 0 10px;
+		width: 100%;
+	}
+	[class*="col-"] {
+		padding-left: 10px;
+    padding-right: 10px;
+	}
+ }
+
+ 
