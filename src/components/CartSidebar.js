@@ -22,7 +22,7 @@ class CartSidebar extends Component {
                 </div>
                 <div className="cart-inside">
 
-                    {!cart ? (
+                    {cart.length === 0 ? (
                         <div>Loading...</div>
                     ) : (
                             <ul className="list">
