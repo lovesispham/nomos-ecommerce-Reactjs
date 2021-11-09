@@ -23,7 +23,7 @@ class CartSidebar extends Component {
                 <div className="cart-inside">
 
                     {cart.length === 0 ? (
-                        <div>Loading...</div>
+                        <div className="text-center">Your cart is currently empty.</div>
                     ) : (
                             <ul className="list">
                                 {cart.map((item, index) => (
