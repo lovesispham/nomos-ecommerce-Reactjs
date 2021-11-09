@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { CookiesProvider } from 'react-cookie';
-import {BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
@@ -10,8 +9,7 @@ import Cart from '../pages/Cart'
 export default class Routes extends Component {
     render() {
         return (
-            <CookiesProvider>
-                <BrowserRouter>
+            <Router>
                 <Switch>
                 <Route path="/" exact component={Home}/>
                 
@@ -20,9 +18,7 @@ export default class Routes extends Component {
                 
                 
             </Switch>
-            </BrowserRouter>
-            </CookiesProvider>
-            
+            </Router>
             
         )
     }
