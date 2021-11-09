@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { CookiesProvider } from 'react-cookie';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 
@@ -11,7 +12,7 @@ import Routes from '../routes/Routes'
 class Layout extends Component {
     render() {
         return (
-            
+            <CookiesProvider>   
                 <BrowserRouter>
                     <Route render ={props => (
                         
@@ -28,7 +29,8 @@ class Layout extends Component {
                    
                     
                 </BrowserRouter>
-            
+                </CookiesProvider>
+
         )
     }
 }
