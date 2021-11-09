@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { CookiesProvider } from 'react-cookie';
+import {BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
@@ -9,7 +10,8 @@ import Cart from '../pages/Cart'
 export default class Routes extends Component {
     render() {
         return (
-            <Router>
+            <CookiesProvider>
+                <BrowserRouter>
                 <Switch>
                 <Route path="/" exact component={Home}/>
                 
@@ -18,7 +20,9 @@ export default class Routes extends Component {
                 
                 
             </Switch>
-            </Router>
+            </BrowserRouter>
+            </CookiesProvider>
+            
             
         )
     }
