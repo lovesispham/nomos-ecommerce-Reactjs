@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 import logo from '../assets/img/nomos-dark-100x19.png'
 import NavbarCart from './NavbarCart'
+import NavbarSearch from './NavbarSearch'
 
 // khoi tao menu
 const mainNav = [
@@ -77,22 +78,16 @@ const Header = () => {
                             <div className="col-md-3 col-xs-6 col-sm-6 col2 flex justify-content-end">
 
                                 <div className="topbar-left">
-                                    <div className="element element-search">
-                                        <a href="#" className="nomos-icon search-toggle">
-                                            <i className="icon-magnifier f-20"></i>
-                                        </a>
-                                    </div>
-                                    <div className="element element-user">
-                                        <a href="#" className="nomos-icon">
-                                            <i className="flaticon-user f-20"></i>
-                                        </a>
-                                    </div>
                                     
-                                    <div className="element element-cart">
+                                        <NavbarSearch />
+                                    
+                                    
+                                    
+                                    
 
                                         <NavbarCart />
                                         
-                                    </div>
+                                    
                                     <div className="element element-menu">
                                         <a href="#" className="icon-pushmenu" onClick={menuToggle}>
                                             <i className="icon-menu f-20"></i>

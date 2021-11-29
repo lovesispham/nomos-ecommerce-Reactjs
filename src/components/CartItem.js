@@ -26,7 +26,7 @@ export default class CartItem extends Component {
                     </div>
                 </td>
                 <td className="product-same total-price">
-                    <p className="price">{item.product.price}</p>
+                    <p className="price">${item.product.price}</p>
                 </td>
                 <td className="bcart-quantity single-product-detail">
                     <div className="nomos-qtt">

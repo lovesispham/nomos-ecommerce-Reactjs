@@ -15,6 +15,8 @@ export const actFetchProducts = (products) => {
 }
 
 
+  
+
 export const actAddToCart = (product, quantity) => {
     return {
         type:types.ADD_TO_CART,
@@ -52,6 +54,8 @@ export const changeSize = (products, size) => {
         }
     }
   }
+
+
 export const sortProducts = (filteredProducts, sort) => {
     const sortedProducts = filteredProducts.slice();
     if (sort === "latest"){

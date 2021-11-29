@@ -9,7 +9,7 @@ export default class ProductReview extends Component {
             <div>
                 
                     <div className="popup-container pu-review">
-                        <span class="popup-close" onClick={() => this.props.handle()}><i class="ion-close"></i></span>
+                        <span className="popup-close" onClick={() => this.props.handle()}><i className="ion-close"></i></span>
                         <div className="pu-content scroll_pu_content">
 
                             <div className="product-review">
@@ -34,7 +34,7 @@ export default class ProductReview extends Component {
                                             <label>Color</label>
                                             <div className="color-group">
                                             {currProd.colors ? currProd.colors.map((color, index) => (
-                                                    <span className="circle" style={{ backgroundColor: `${color}` }}>
+                                                    <span key={index} className="circle" style={{ backgroundColor: `${color}` }}>
                                                     </span>
                                                     )): <span>Loading...</span>}
                                             </div>

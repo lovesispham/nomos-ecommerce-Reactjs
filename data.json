@@ -6,9 +6,9 @@
             "category":"Decoration",
             "img01":"assets/img/product/1/19.jpg",
             "img02":"assets/img/product/1/20.jpg",
-            "colors":["white","red","yellow"],
+            "colors":["white","red","yellow","blue"],
             "slug":"lj-2-side-chair-grey",
-            "availableSizes": ["X", "L", "XL", "XXL"]
+            "availableSizes": ["X", "L", "XL"]
         },
         {
             "title" : "Collect Lighting",
@@ -58,7 +58,7 @@
             "img02":"assets/img/product/6/15.jpg",
             "colors":["white","red","yellow"],
             "slug":"watch-desk",
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XL"]
         },
         {
             "title" : "Decor In House",
@@ -68,7 +68,7 @@
             "img02":"assets/img/product/7/49.jpg",
             "colors":["white","red","yellow"],
             "slug":"decor-in-house",
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XL"]
         },
         {
             "title" : "Chair Beige",
@@ -78,7 +78,7 @@
             "img02":"assets/img/product/8/59.jpg",
             "colors":["white","red","yellow"],
             "slug":"chair-beige",
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XL"]
         },
         {
             "title" : "Chair Grey",
@@ -88,7 +88,7 @@
             "img02":"assets/img/product/9/2.jpg",
             "colors":["white","red","yellow"],
             "slug":"chair-grey",
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XL"]
         },
         {
             "title" : "Chair blue",
@@ -96,9 +96,9 @@
             "category":"Furniture",
             "img01":"assets/img/product/10/12.jpg",
             "img02":"assets/img/product/10/13.jpg",
-            "colors":["white","red","yellow"],
+            "colors":["white", "pink"],
             "slug":"chair-blue",
-            "availableSizes": ["XL", "XXL"]
+            "availableSizes": ["XXL"]
         }
     ]
 }

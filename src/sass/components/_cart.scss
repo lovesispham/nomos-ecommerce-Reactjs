@@ -18,11 +18,7 @@
     .cart-table {
         border: 2px solid #e3e3e3;
         margin-bottom: 27px;
-        &.v2{
-            @media(min-width:1025px){
-            margin-bottom:56px;
-            }
-        }
+       
         thead>tr>th {
             text-transform: uppercase;
             font-size: 12px;
@@ -163,11 +159,7 @@
                         color: $theme-color;
                     }
                 }
-                &.v2{
-                    @media(min-width:1025px){
-                        padding-right:67px;
-                    }
-                }
+               
             }
         }
     }
@@ -461,3 +453,8 @@
         }
 }
 
+.nomos-cart{
+    @media(max-width:812px){
+        margin-top: 20px;
+    }
+}

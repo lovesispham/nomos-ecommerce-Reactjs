@@ -7,7 +7,7 @@ import './sass/theme.scss'
 
 // import structure
 import Layout from './components/Layout';
-
+// import * as serviceWorker from './serviceWorker';
 
 import {createStore,compose, applyMiddleware} from 'redux'
 
@@ -39,3 +39,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+// serviceWorker.unregister();

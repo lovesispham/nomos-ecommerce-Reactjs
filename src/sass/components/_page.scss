@@ -1,0 +1,44 @@
+
+// 404 
+.nomos-404{
+	@media(min-width:$screen-xs-max){
+		padding:100px 0;
+	}
+	padding:20px 0;
+	.row{
+		@media(min-width:$screen-xs-max){
+			@include flex;
+			@include align-items(center);
+		}
+		@media(max-width:$screen-xs-max){
+			[class*="col-xs-"] {
+				margin-bottom:15px;
+			}
+		}
+	}
+
+	h3{
+        font-size:30px;
+        font-weight:400;
+		@media(min-width:$screen-md){
+			margin-bottom: 44px;
+    		margin-top: 57px;
+		}
+		margin-bottom: 20px;
+    	margin-top: 30px;
+	}
+	
+	.nomos-back{
+		font-size:14px;
+		@include tracking(100);
+		display:inline-block;
+		position:relative;
+		margin-top:15px;
+		height: 47px;
+		line-height: 47px;
+		background: $theme-color;
+		text-transform:uppercase;
+		padding: 0 27px;
+		
+	}
+}

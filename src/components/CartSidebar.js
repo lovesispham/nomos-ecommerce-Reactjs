@@ -23,7 +23,11 @@ class CartSidebar extends Component {
                 <div className="cart-inside">
 
                     {cart.length === 0 ? (
-                        <div className="text-center">Your cart is currently empty.</div>
+                        <div className="nocart-list">
+                            <div className="empty-cart">
+                                <h3 className="nocart-title">Your cart is currently empty.</h3>
+                            </div>
+                        </div>
                     ) : (
                             <ul className="list">
                                 {cart.map((item, index) => (
@@ -79,9 +83,9 @@ CartSidebar.propTypes = {
             category: PropTypes.string.isRequired,
             img01: PropTypes.string.isRequired,
             img02: PropTypes.string.isRequired,
-            colors: PropTypes.string.isRequired,
+            colors: PropTypes.string.array,
             slug: PropTypes.string.isRequired,
-            size: PropTypes.string.isRequired
+            size: PropTypes.string.array
         }).isRequired,
         quantity: PropTypes.number.isRequired
     })).isRequired

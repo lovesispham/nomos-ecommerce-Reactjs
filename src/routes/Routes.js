@@ -3,7 +3,7 @@ import {Route, Switch } from 'react-router-dom'
 import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
-
+import NotFound from '../pages/NotFound'
 
 
 export default class Routes extends Component {
@@ -14,7 +14,7 @@ export default class Routes extends Component {
                 
                 <Route exact path="/catalog" component={Catalog}/>
                 <Route exact path="/cart" component={Cart}/>  
-                
+                <Route path="*" component={NotFound} />
                 
             </Switch>
         )
