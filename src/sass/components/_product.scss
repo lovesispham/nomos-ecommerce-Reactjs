@@ -425,9 +425,13 @@
     .icon_close {
         @media(max-width: 812px) {
             left: auto;
-            right: 10px;
+            right: 0;
             top: 0;
             line-height: 50px;
+            width: 50px;
+            height: 50px;
+            display: block;
+            text-align:center;
             cursor: pointer;
             font-size: 20px;
             position: absolute;
