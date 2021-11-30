@@ -54,7 +54,7 @@ const Header = () => {
 
                                 </div>
                                 <div className="header-menu" ref={menuLeft}>
-                                    <a href="#" className="close-menu-mobile" onClick={menuToggle}><span>Close</span></a>
+                                    <div className="close-menu-mobile" onClick={menuToggle}><span>Close</span></div>
                                     <ul className="nav navbar-nav">
 
                                         {
@@ -89,9 +89,9 @@ const Header = () => {
                                         
                                     
                                     <div className="element element-menu">
-                                        <a href="#" className="icon-pushmenu" onClick={menuToggle}>
+                                        <span className="nomos-icon icon-pushmenu" onClick={menuToggle}>
                                             <i className="icon-menu f-20"></i>
-                                        </a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>

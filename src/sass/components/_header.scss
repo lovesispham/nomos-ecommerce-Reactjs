@@ -31,6 +31,14 @@
   position: relative;
   .nomos-icon {
     cursor: pointer;
+    width:30px;
+    @media(max-width:$screen-xs){
+      
+      height: 30px;
+      line-height: 30px;
+      text-align:center;
+      display: inline-block;
+    }
   }
   > a,
   > span {
@@ -65,8 +73,11 @@
   &.element-cart {
     padding-right: 20px;
     padding-left: 0;
+    margin-right: -15px;
   }
-
+  &.element-search{
+    margin-right: -5px;
+  }
   @media (max-width: $screen-md) {
     &.element-account {
       padding-left: 0;
@@ -145,7 +156,7 @@
   top: -8px;
   overflow: hidden;
 
-  right: 0;
+  right: 15px;
   margin: 0;
 }
 
@@ -188,6 +199,7 @@
       padding: 0;
       @media (max-width: 1024px) {
         font-weight: 500;
+        display: block;
       }
     }
     &:first-child {
