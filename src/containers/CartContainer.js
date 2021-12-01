@@ -44,9 +44,12 @@ class CartContainer extends Component {
                         
                         <div className="cart-collaterals">
                             {cart.length === 0 ? (
-                                <div className="cart_totals text-center">
-                                        Your cart is currently empty.
+                                <div className="cart_totals style1 text-center">
+                                        <p>Your cart is currently empty.</p>
+                                        <a href="/#/catalog" className="nomos-btn mg-0">
+                                        Back to Shopping</a>
                                 </div>
+                                
                                 ):(
                             
                             <div className="cart_totals ">
@@ -65,7 +68,10 @@ class CartContainer extends Component {
                                     </tbody>
                                 </table>
                                 <div className="wc-proceed-to-checkout">
-                                    <a href="#" className="checkout-button button nomos-btn">
+                                    
+                                        <a href="/#/catalog" className="checkout-button button nomos-btn">
+                                        Continue to Shopping</a>
+                                        <a href="/" className="checkout-button button nomos-btn">
                                         Proceed to checkout</a>
                                 </div>
                             

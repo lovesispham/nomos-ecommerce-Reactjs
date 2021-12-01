@@ -342,6 +342,16 @@
                     float:none !important;
                 }
             }
+            &.style1{
+                @media(max-width:$screen-xs-max){
+                    overflow:inherit;
+                    padding: 15px;
+                    .nomos-btn{
+                        min-width: inherit;
+                        width:100%;
+                    }
+                }
+            }
             h2{
                 font-weight: 600;
                 font-size: 12px;

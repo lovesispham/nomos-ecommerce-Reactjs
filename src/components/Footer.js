@@ -63,10 +63,10 @@ class Footer extends Component {
                             </div>
                             <div className="col-xs-12 col-sm-4 flex justify-center">
                                 <div className="social">
-                                    <a href=""><i className="fa fa-facebook"></i></a>
-                                    <a href=""><i className="fa fa-twitter"></i></a>
-                                    <a href=""><i className="fa fa-pinterest"></i></a>
-                                    <a href=""><i className="fa fa-rss"></i></a>
+                                    <a href="/" alt=""><i className="fa fa-facebook"></i></a>
+                                    <a href="/" alt=""><i className="fa fa-twitter"></i></a>
+                                    <a href="/" alt=""><i className="fa fa-pinterest"></i></a>
+                                    <a href="/" alt=""><i className="fa fa-rss"></i></a>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-sm-4 flex justify-content-end">

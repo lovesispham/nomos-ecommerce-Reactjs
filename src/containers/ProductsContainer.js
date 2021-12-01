@@ -19,9 +19,8 @@ class ProductsContainer extends Component {
       currentProduct: "",
 
       colors: [],
-      availableSizes: [],
+      availableSizes: []
 
-      productFitered: []
     };
   }
   // select Color checkbox

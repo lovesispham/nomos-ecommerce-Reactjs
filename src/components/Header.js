@@ -49,7 +49,7 @@ const Header = () => {
                             <div className="col-md-9 col-xs-6 col-sm-6 col2 flex align-items-center">
                                 <div className="nomos-logo">
                                     <Link to="/">
-                                        <img src={logo} />
+                                        <img src={logo} alt=""/>
                                     </Link>
 
                                 </div>
